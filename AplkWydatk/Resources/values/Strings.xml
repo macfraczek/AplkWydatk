@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Click Me!</string>
+  <string name="app_name">Aplikacja Wydatkowa</string>
+  <string name="addProduct">Dodaj Produkt </string>
+  <string name="showProduct">Pokaz Produkt</string>
+  <string name="management">Zarządzanie</string>
+  <string name="algorytmUse">Oblicz wydatki !</string>
+  
+</resources>
