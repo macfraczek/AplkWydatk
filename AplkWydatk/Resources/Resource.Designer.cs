@@ -44,17 +44,41 @@ namespace AplkWydatk
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int AddProductButton = 2131034112;
+			// aapt resource value: 0x7f050006
+			public const int AddButton = 2131034118;
+			
+			// aapt resource value: 0x7f050008
+			public const int AddProductButton = 2131034120;
+			
+			// aapt resource value: 0x7f05000b
+			public const int AlgorytmUseButton = 2131034123;
+			
+			// aapt resource value: 0x7f050007
+			public const int CancelButton = 2131034119;
 			
 			// aapt resource value: 0x7f050003
-			public const int AlgorytmUseButton = 2131034115;
+			public const int CategoryText = 2131034115;
+			
+			// aapt resource value: 0x7f05000a
+			public const int ManagmentButton = 2131034122;
 			
 			// aapt resource value: 0x7f050002
-			public const int ManagmentButton = 2131034114;
+			public const int PrizeText = 2131034114;
 			
 			// aapt resource value: 0x7f050001
-			public const int ShowProductButton = 2131034113;
+			public const int ProductText = 2131034113;
+			
+			// aapt resource value: 0x7f050009
+			public const int ShowProductButton = 2131034121;
+			
+			// aapt resource value: 0x7f050004
+			public const int checkBox1 = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int space1 = 2131034117;
+			
+			// aapt resource value: 0x7f050000
+			public const int textView1 = 2131034112;
 			
 			static Id()
 			{
@@ -73,13 +97,22 @@ namespace AplkWydatk
 			public const int AddProductLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int AlgorytmLayout = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int MangamentLayout = 2130903042;
+			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ShowProjectLayout = 2130903043;
+			public const int MangamentLayout = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int PeopleEditLayout = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SendEmailLayout = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int ShowProjectLayout = 2130903046;
 			
 			static Layout()
 			{
@@ -110,8 +143,14 @@ namespace AplkWydatk
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040009
+			public const int add = 2130968585;
+			
 			// aapt resource value: 0x7f040002
 			public const int addProduct = 2130968578;
+			
+			// aapt resource value: 0x7f04000b
+			public const int addSuccess = 2130968587;
 			
 			// aapt resource value: 0x7f040005
 			public const int algorytmUse = 2130968581;
@@ -119,11 +158,23 @@ namespace AplkWydatk
 			// aapt resource value: 0x7f040001
 			public const int app_name = 2130968577;
 			
+			// aapt resource value: 0x7f04000a
+			public const int cancel = 2130968586;
+			
+			// aapt resource value: 0x7f040008
+			public const int category = 2130968584;
+			
 			// aapt resource value: 0x7f040000
 			public const int hello = 2130968576;
 			
 			// aapt resource value: 0x7f040004
 			public const int management = 2130968580;
+			
+			// aapt resource value: 0x7f040007
+			public const int prize = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int product = 2130968582;
 			
 			// aapt resource value: 0x7f040003
 			public const int showProduct = 2130968579;

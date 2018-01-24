@@ -6,5 +6,11 @@
   <string name="showProduct">Pokaz Produkt</string>
   <string name="management">Zarządzanie</string>
   <string name="algorytmUse">Oblicz wydatki !</string>
+  <string name="product">Produkt</string>
+  <string name="prize">Cena</string>
+  <string name="category">Kategoria</string>
+  <string name="add">Dodaj</string>
+  <string name="cancel">Anuluj</string>
+  <string name="addSuccess">Dodano pomyślnie</string>
   
 </resources>
