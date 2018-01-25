@@ -30,9 +30,8 @@ namespace SmtpClientAccess
                 message.IsBodyHtml = false;
 
                 client.Send(message);
-                Console.WriteLine("Wiadomość została wysłana.");
+                //Console.WriteLine("Wiadomość została wysłana.");
             }
-            Console.ReadKey();
         }
     }
 }

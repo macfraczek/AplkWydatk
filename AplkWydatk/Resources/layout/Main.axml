@@ -3,12 +3,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <Button
+    <Button
         android:text="@string/addProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/AddProductButton" />
-  <Button
+    <Button
         android:text="@string/showProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,12 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ManagmentButton" />
-    <Button
-        android:text="@string/algorytmUse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/AlgorytmUseButton" />
+  <Button
+      android:text="@string/algorytmUse"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/AlgorytmUseButton" />
+  <Button
+      android:text="TEST"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TEST" />
 </LinearLayout>
-
-
-

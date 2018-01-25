@@ -3,6 +3,7 @@
   <string name="hello">Hello World, Click Me!</string>
   <string name="app_name">Aplikacja Wydatkowa</string>
   <string name="addProduct">Dodaj Produkt </string>
+  <string name="addPerson">Dodaj Osobe </string>
   <string name="showProduct">Pokaz Produkt</string>
   <string name="management">Zarządzanie</string>
   <string name="algorytmUse">Oblicz wydatki !</string>
@@ -12,5 +13,13 @@
   <string name="add">Dodaj</string>
   <string name="cancel">Anuluj</string>
   <string name="addSuccess">Dodano pomyślnie</string>
-  
+  <string name="editEventName">Zmień nazwę wydarzenia</string>
+  <string name="save">Zapisz</string>
+  <string name="reject">Odrzuć</string>
+  <string name="name">Nazwa</string>
+  <string name="email">E-mail</string>  
+  <string name="back">Powrót</string>
+  <string name="listUsers">Lista Osób:</string>
+  <string name="empty">Pusto.</string>
+
 </resources>

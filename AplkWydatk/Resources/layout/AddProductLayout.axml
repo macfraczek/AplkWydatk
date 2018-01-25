@@ -37,27 +37,37 @@
         android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
+        android:id="@+id/checkBox0"
+        android:visibility="invisible"
+        android:enabled="false" />
     <CheckBox
         android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
+        android:id="@+id/checkBox1"
+        android:visibility="invisible"
+        android:enabled="false" />
     <CheckBox
         android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
+        android:id="@+id/checkBox2"
+        android:visibility="invisible"
+        android:enabled="false" />
     <CheckBox
         android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
+        android:id="@+id/checkBox3"
+        android:visibility="invisible"
+        android:enabled="false" />
     <CheckBox
         android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
+        android:id="@+id/checkBox4"
+        android:visibility="invisible"
+        android:enabled="false" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

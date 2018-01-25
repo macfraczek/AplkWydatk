@@ -113,7 +113,20 @@ namespace AplkWydatk
             while (IsNext(count))
             {
                 result += "ID: " + iterator[count].Id + " \tNick: "
-                    + iterator[count].Nick + " \tEmail: " + iterator[count].Email + "\n";
+                    + iterator[count].Nick + " \n   Email: " + iterator[count].Email + "\n";
+                count++;
+            }
+            return result;
+        }
+        public List<string> GetList()
+        {
+            List<string> result = new List<string>();
+            int count = 0;
+            //Console.WriteLine(iterator.Count.ToString());
+            while (IsNext(count))
+            {
+                result.Add( "ID: " + iterator[count].Id + " \tNick: "
+                    + iterator[count].Nick + " \n   Email: " + iterator[count].Email + "\n");
                 count++;
             }
             return result;
@@ -160,7 +173,28 @@ namespace AplkWydatk
             }
             return result;
         }
+        public List<string> GetList()
+        {
+            int count = 0;
+            List<string> result = new List<string>();
+            while (IsNext(count))
+            {
+                result.Add("Name: " + iterator[count].Name.ToString());
+                  //  + " \tPrize: " + iterator[count].Prize.ToString()
+                   // + " \tCategory: " + iterator[count].Category.ToString() + "\tList: ");
+                /*
+                for(int i = 0; i < CollectionPerson.ReturnList.Count; i++)
+                {
+                    result.Add(iterator[count].ListBuyer[i].ToString());
+                    result.Add("  ");
+                }
 
+
+                result.Add("\n");*/
+                count++;
+            }
+            return result;
+        }
 
     }
 
@@ -195,27 +229,10 @@ namespace AplkWydatk
                 }
 
             }
-
-            /*
-            Console.WriteLine("Total :{0} \tPoP:{1}",total,perOnePerson);
-            for (int i = 0; i < listOfDebt.Count; i++)
-            {
-                Console.WriteLine("{0} ==> {1} .", i, listOfDebt[i]);
-            }*/
             for (int i = 0; i < personList.Count; i++)
             {
                 listOfDebt[i] -= perOnePerson;
             }
-            /*
-            for (int i = 0; i < listOfDebt.Count; i++)
-            {
-                Console.WriteLine("{0} ==> {1}", i, String.Format("{0:00.00}", listOfDebt[i]));
-            }
-            */
-
-
-
-
 
             for (int i = 0; i < personList.Count; i++)
             {
@@ -227,7 +244,6 @@ namespace AplkWydatk
                         if (listOfDebt[j] < 0)
                         {
                             double temp;
-                            //Console.WriteLine(i + " " + j + " " + listOfDebt[i] + "<=" + (-listOfDebt[j]) + 0.001);
                             if (listOfDebt[i] <= (-listOfDebt[j]) + 0.001)
                             {
                                 anyChange = false;
@@ -253,13 +269,6 @@ namespace AplkWydatk
             if (anyChange)
                 result = "Wszystko jest OK :)";
 
-            /*
-            Console.WriteLine("\n"+result);
-            for (int i=0;i<listOfDebt.Count;i++)
-            {
-                Console.WriteLine("{0} ==> {1}", i, String.Format("{0:00.00}", listOfDebt[i]));
-            }*/
-
             return result;
         }
     }
@@ -267,7 +276,7 @@ namespace AplkWydatk
 
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             InitializeSomePeople();
             CollectionPersonIterator a = new CollectionPersonIterator();
@@ -280,13 +289,12 @@ namespace AplkWydatk
             Console.WriteLine(a.Get());
             Console.WriteLine(b.Get());
 
-            Console.WriteLine("=======================================================");
-            SmtpClientAccess.Program.SendEmail("macfraczek@gmail.com", b.Get());
+            Console.WriteLine("=======================================================");c
             
 
             Console.ReadKey();
             return;
-        }
+        }*/
 
         private static void InitializeSomeProducts()
         {
